@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>HTML in Action</title>
+  </head>
+  <body>
+
+    <!-- Main Header -->
+    <header>
+      <h1>HTML in Action</h1>
+
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/basics.html">Basics</a></li>
+          <li><a href="/lists.html">Lists</a></li>
+          <li><a href="/forms.html">Forms</a></li>
+          <li><a href="/tables.html">Tables</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <!-- Form -->
+    <section>
+      <h1>Sign Up Form</h1>
+
+      <form action="/forms.html" method="get">
+        <fieldset>
+          <legend>Credentials</legend>
+
+          <label for="email">Email</label>
+          <input type="text" name="email">
+
+          <label for="password">Password</label>
+          <input type="text" name="password">
+        </fieldset>
+
+        <fieldset>
+          <legend>Name:</legend>
+
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name">
+
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name">
+        </fieldset>
+
+        <fieldset>
+          <legend>Gender</legend>
+
+          <label for="gender">Male</label>
+          <input type="radio" name="gender" value="m">
+          <label for="gender">Female</label>
+          <input type="radio" name="gender" value="f">
+        </fieldset>
+
+        <fieldset>
+          <legend>Profile</legend>
+
+          <label for="location">Location</label>
+          <select name="location">
+            <option value="earth">Earth</option>
+            <option value="jupiter">Jupiter</option>
+            <option value="abyss">The Abyss</option>
+          </select>
+
+          <br>
+          <label for="about">About</label>
+          <br>
+          <textarea name="about"></textarea>
+
+          <br>
+          <label for="hobbies">Hobbies</label>
+          <br>
+          <input type="checkbox" value="skiing"> Skiing
+          <input type="checkbox" value="coding"> Coding
+          <input type="checkbox" value="cooking"> Cooking
+          <input type="checkbox" value="sports"> Sports
+        </fieldset>
+
+        <input type="submit">
+      </form>
+    </section>
+
+
+    <!-- Main Footer -->
+    <footer>
+      A demo by <a href="http://vikingcodeschool.com">Viking Code School</a>
+    </footer>
+  </body>
+</html>
+
+
+
